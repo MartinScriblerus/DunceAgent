@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["Matt Reilly"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+numpy = "^2.1.0"
+pandas = "^2.2.2"
+scipy = "^1.14.1"
+scikit-learn = "^1.5.1"
+fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
+python-multipart = "^0.0.9"
+pydantic = "^2.8.2"
+python-dotenv = "^1.0.1"
+ctransformers = "^0.2.27"
+sentence-transformers = "^3.0.1"
+gdown = "^5.2.0"
+opendatasets = "^0.1.22"
+pydantic-settings = "^2.4.0"
+kaggle = "^1.6.17"
+python-json-logger = "^2.0.7"
+datasets = "^2.21.0"
+qdrant-client = "^1.11.1"
+psycopg2 = "^2.9.9"
+setuptools = "^74.1.2"
+starlette = "^0.38.5"
+playwright = "^1.47.0"
+torch = "^2.4.1"
+transformers = "^4.44.2"
+tokenizers = ">=0.19,<0.20"
+nltk = "^3.9.1"
+networkx = "^3.3"
+memory-profiler = "^0.61.0"
+sqlalchemy = "^2.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
