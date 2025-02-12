@@ -176,3 +176,7 @@ next/.next/
 next/node_modules/
 qdrant_data/
 imported_datasets/
+next/.next/
+next/node_modules/
+qdrant_data/
+imported_datasets/
